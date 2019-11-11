@@ -1,0 +1,354 @@
+.maincontainer{
+   max-width: 900px;
+   font-family: 'Archivo', sans-serif;
+}
+
+.bannergridclass{
+    display: grid;
+    grid-auto-columns: auto auto auto auto;
+    grid-auto-rows: 100px 100px 100px 100px 100px 100px 100px;
+    padding-bottom: 90px;
+    margin-left: 220px;
+    margin-right: 100px;
+   
+}
+    
+  
+
+
+.logo{
+    position: relative;
+    bottom: 20px;
+    margin-top: 30px;
+    margin-left: 170px;
+    
+}
+
+.header{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+nav{
+    position: relative;
+    bottom: 360px;
+    margin-left: 150px;
+}
+
+ul{ 
+
+    position: relative;
+    top: 22px;
+    width: 1000px;
+    background-color: #222931;
+    word-spacing: 10px;
+}
+
+li{
+    display: inline-block;
+
+}
+
+a{  
+
+    font-size: 12px;
+    color: white;
+    line-height: 40px;
+}
+
+
+.img1{
+    width: 300px;
+    grid-column: 1;
+    grid-row: 1;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+.img2{
+    width: 300px;
+    grid-column: 1;
+    grid-row: 1;
+    padding-left: 320px;
+    
+   
+   
+    
+}
+
+.img3{
+    width: 300px;
+    grid-column: 1;
+    grid-row: 1;
+    margin-right: 100px;
+    padding-left: 640px;
+
+}
+
+.geleblok{
+    position: relative;
+    text-align: center;
+    left: 0px;
+    top: 50px;
+    width: 1420px;
+    margin-top: 30px;
+    line-height: 100px;
+    background: #ffe718;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.tekst1{
+    text-align: left;
+    padding-left: 110px;
+    font-size: 34px;
+    font-weight: 700;
+    
+}
+
+.tekst2{
+    position: relative;
+    left: 500px;
+    padding-left: 20px;
+    bottom: 37px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+.witteblokje{
+    position: relative;
+    text-align: center;
+    left: 1000px;
+    bottom: 90px;
+    width: 100px;
+    margin-top: 30px;
+    line-height: 30px;
+    background:white;
+    font-weight: 700;
+    font-size: 22px;
+
+
+}
+
+.tekst3{
+    position: relative;
+    text-align: right;
+    width: 100px;
+    right: 0px;
+    bottom: 0px;
+    text-align: right;
+    font-weight: 700;
+    font-size: 16px;
+    
+    
+    
+}
+
+.footer{
+    position: relative;
+    bottom: 50px;
+    
+}
+
+.bannerblokje1{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    left: 210px;
+    bottom: 170px;
+    width: 300px;
+    height: 80px;
+    line-height: 50px;
+    background: #ffe718;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+
+.icon1{
+    display: block;
+    padding-right: 200px;
+    padding-top: 20px;
+    right: 110px;
+    top: 20px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.tekstbannerblokje1{
+   position: relative;
+   bottom: 85px;
+   padding-right: 50px;
+    
+ 
+}
+
+
+.minitekst1{
+    position: absolute;
+    top: 30px;
+    left:  88px;
+    text-align: center;
+    padding-top: 1px;
+    color: black;
+    
+    
+}
+
+.bannerblokje2{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    left: 230px;
+    bottom: 100px;
+    width: 300px;
+    height: 80px;
+    line-height: 50px;
+    background: #ffe718;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.icon2{
+    display: block;
+    padding-right: 200px;
+    padding-top: 18px;
+    right: 110px;
+    top: 20px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.tekstbannerblokje2{
+    position: relative;
+    right: 10px;
+    bottom: 85px;
+    padding-left: 0px;
+     
+  
+}
+
+.minitekst2{
+    position: relative;
+    left: 6px;
+    right: 100px;
+    bottom: 140px;
+    text-align: left;
+    padding-top: 1px;
+    color: black;
+}
+
+.bannerblokje3{
+    display: inline-block;
+    position: relative;
+    text-align: right;
+    left: 865px;
+    bottom: 296px;
+    width: 300px;
+    height: 80px;
+    line-height: 50px;
+    background: #ffe718;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.icon3{
+    display: block;
+    padding-right: 230px;
+    padding-top: 18px;
+    right: 110px;
+    top: 20px;
+    font-size: 32px;
+    font-weight: 600;
+
+}
+
+.tekstbannerblokje3{
+    position: relative;
+    right: 10px;
+    bottom: 80px;
+    padding-right: 100px;
+}
+
+.minitekst3{
+    position: relative;
+    left: 12px;
+    right: 110px;
+    padding-right: 101px;
+    padding-top: 1px;
+    bottom: 140px;
+    text-align: left;
+    color: black;
+}
+
+hr{
+    position: relative;
+    bottom: 350px;
+    width: 950px;
+    margin-left: 210px;
+    
+
+}
+.contact{
+    display: block;
+    position: absolute;
+    left: 100px;
+    
+}
+
+.Overons{
+    display: inline-block;
+}
+
+.overons{
+    position: relative;
+    left: 210px;
+    bottom: 350px;
+    font-size: 34px;
+    font-weight: 600;
+    color: #222931 ;
+}
+
+.breadcumb{
+    position: absolute;
+    left: 220px;
+    top: 1230px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #5f656d;
+}
+
+.Contact{
+    display: inline-block;
+    position: relative;
+    left: 640px;
+    bottom: 340px;
+    font-size: 34px;
+    font-weight: 600;
+    color: #222931 ;
+}
+
+.mapicon{
+    position: relative;
+    left: 105px;
+    top: 110px;
+    color: #aeb6be;
+}
+
+.adress{
+    position: relative;
+    left: 150px;
+    top: 70px;
+    color: #aeb6be;
+    font-size: 12px;
+}
+
+.telefoonicon{
+    position: relative;
+    left: 105px;
+    top: 110px;
+    color: #aeb6be;
+}
+
