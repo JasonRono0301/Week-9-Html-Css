@@ -12,9 +12,11 @@
     margin-right: 100px;
    
 }
-    
-  
 
+.navbar {
+    overflow: auto;
+    background-color: #ffe718; 
+  }
 
 .logo{
     position: relative;
@@ -299,7 +301,7 @@ hr{
 }
 
 .Overons{
-    display: inline-block;
+    display: block;
 }
 
 .overons{
@@ -314,21 +316,29 @@ hr{
 .breadcumb{
     position: absolute;
     left: 220px;
-    top: 1230px;
+    top: 1240px;
     font-size: 12px;
     font-weight: 400;
+    line-height: 1.6;
     color: #5f656d;
 }
 
 .Contact{
-    display: inline-block;
+    display: block;
     position: relative;
     left: 640px;
-    bottom: 340px;
+    bottom: 453px;
     font-size: 34px;
     font-weight: 600;
     color: #222931 ;
 }
+
+.alleiconen{
+    display: block;
+    position: relative;
+    top:10px;
+}
+
 
 .mapicon{
     position: relative;
@@ -345,10 +355,34 @@ hr{
     font-size: 12px;
 }
 
-.telefoonicon{
+.telefoonicoon{
     position: relative;
-    left: 105px;
-    top: 110px;
+    left: 106px;
+    top: 75px;
     color: #aeb6be;
+}
+
+.telefoonnummer{
+    position: relative;
+    left: 150px;
+    top: 36px;
+    color: #aeb6be;
+    font-size: 12px;
+}
+
+.mailicoon{
+    position: relative;
+    left: 101px;
+    top: 52px;
+    color: #aeb6be;
+    
+}
+
+.mailadress{
+    position: relative;
+    left: 150px;
+    top: 14px;
+    color: #aeb6be;
+    font-size: 12px;
 }
 
