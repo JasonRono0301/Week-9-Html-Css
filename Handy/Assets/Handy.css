@@ -1,5 +1,5 @@
 .maincontainer{
-   max-width: 900px;
+   max-width: 0px;
    font-family: 'Archivo', sans-serif;
 }
 
@@ -13,10 +13,6 @@
    
 }
 
-.navbar {
-    overflow: auto;
-    background-color: #ffe718; 
-  }
 
 .logo{
     position: relative;
