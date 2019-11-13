@@ -10,7 +10,7 @@
     padding-bottom: 90px;
     margin-left: 220px;
     margin-right: 100px;
-   
+    padding-top: 50px;
 }
 
 
@@ -27,33 +27,44 @@
     grid-row: 2;
 }
 
-nav{
+.submenu{
     position: relative;
-    bottom: 360px;
-    margin-left: 150px;
-}
-
-ul{ 
-
-    position: relative;
-    top: 22px;
-    width: 1000px;
-    background-color: #222931;
-    word-spacing: 10px;
-}
-
-li{
-    display: inline-block;
-
-}
-
-a{  
-
-    font-size: 12px;
-    color: white;
     line-height: 40px;
+    bottom: 320px;
+    left: 150px;
+    overflow: hidden;
+    width: 950px;
+    background-color: #222931;
 }
 
+.submenu a{
+    color: white;
+    text-decoration: none;
+    padding-left: 50px;
+    margin: 0;
+}
+
+
+.content1{
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.content1 a:hover, .subnav1:hover .submenu{
+    background-color: yellow;
+}
+
+.subnav1{
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
 
 .img1{
     width: 300px;
@@ -68,10 +79,6 @@ a{
     grid-column: 1;
     grid-row: 1;
     padding-left: 320px;
-    
-   
-   
-    
 }
 
 .img3{
@@ -186,7 +193,9 @@ a{
 
 .minitekst1{
     position: absolute;
-    top: 30px;
+    font-size: 12px;
+    line-height: 18px;
+    top: 40px;
     left:  88px;
     text-align: center;
     padding-top: 1px;
@@ -230,6 +239,7 @@ a{
 
 .minitekst2{
     position: relative;
+    font-size: 12px;
     left: 6px;
     right: 100px;
     bottom: 140px;
@@ -266,16 +276,17 @@ a{
 .tekstbannerblokje3{
     position: relative;
     right: 10px;
-    bottom: 80px;
+    bottom: 85px;
     padding-right: 100px;
 }
 
 .minitekst3{
     position: relative;
+    font-size: 12px;
     left: 12px;
     right: 110px;
     padding-right: 101px;
-    padding-top: 1px;
+    padding-top: 3px;
     bottom: 140px;
     text-align: left;
     color: black;
