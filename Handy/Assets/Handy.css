@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 .maincontainer{
    max-width:  650px;
    font-family: 'Archivo', sans-serif;
@@ -10,7 +13,7 @@
     padding-bottom: 90px;
     margin-left: 220px;
     margin-right: 100px;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 
@@ -146,9 +149,6 @@
     text-align: right;
     font-weight: 700;
     font-size: 16px;
-    
-    
-    
 }
 
 .footer{
@@ -342,7 +342,7 @@ hr{
 
 .alleiconen{
     position: relative;
-    top:10px;
+    bottom:5px;
     right: 10px;
 }
 
